@@ -1,0 +1,9 @@
+{
+  "name": "demo-pipeline",
+  "description": "Natural language to automated demo recording pipeline for mobile and web apps",
+  "version": "1.0.0",
+  "author": { "name": "Juan Marchetto" },
+  "homepage": "https://github.com/JuanMarchetto/demo-pipeline",
+  "repository": "https://github.com/JuanMarchetto/demo-pipeline",
+  "license": "MIT"
+}

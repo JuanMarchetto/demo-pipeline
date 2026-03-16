@@ -1,0 +1,26 @@
+{
+  "$schema": "https://webreel.dev/schema/v1.json",
+  "outDir": "videos/",
+  "baseUrl": "{{BASE_URL}}",
+  "viewport": "iphone-15",
+  "defaultDelay": 500,
+  "videos": {
+    "demo": {
+      "url": "{{START_URL}}",
+      "output": "demo.mp4",
+      "fps": 30,
+      "quality": 90,
+      "steps": [
+        {
+          "action": "pause",
+          "ms": 1000,
+          "label": "{{STEP_NAME}}"
+        },
+        {
+          "action": "screenshot",
+          "output": "{{SCREENSHOT_NAME}}.png"
+        }
+      ]
+    }
+  }
+}

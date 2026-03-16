@@ -1,0 +1,11 @@
+# Demo Pipeline — Maestro Flow Template
+# Replace {{PLACEHOLDERS}} with actual values from the unified YAML
+appId: {{APP_ID}}
+---
+# {{STEP_NAME}}
+# Repeat this block for each step in the unified YAML:
+
+- tapOn:
+    id: "{{ELEMENT_ID}}"
+
+- takeScreenshot: "{{SCREENSHOT_NAME}}"
