@@ -9,6 +9,11 @@ Record automated app demos from natural language descriptions. Converts plain En
 /plugin install demo-pipeline@agent-skills
 ```
 
+Or via [skills.sh](https://skills.sh):
+```bash
+npx skills add JuanMarchetto/demo-pipeline
+```
+
 Or manually:
 ```bash
 git clone https://github.com/JuanMarchetto/demo-pipeline.git
