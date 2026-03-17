@@ -388,9 +388,36 @@ Create `./docs/demo-report.md` using the [report template](templates/demo-report
 > - Video: `./videos/demo.mp4` (X MB)
 > - Report: `./docs/demo-report.md`
 
+## Example Output
+
+```
+Demo recording complete!
+- Screenshots: 5 captured in ./screenshots/
+  01-login.png (1290x2796)
+  02-home-feed.png (1290x2796)
+  03-rewards-list.png (1290x2796)
+  04-coupon-detail.png (1290x2796)
+  05-profile.png (1290x2796)
+- Video: ./videos/demo.mp4 (12.3 MB, 45s)
+- Report: ./docs/demo-report.md
+```
+
+## Error Handling
+
+- **No device/emulator detected**: "Start your emulator/device and the Expo dev server, then try again"
+- **No dev server detected**: "Start your dev server and try again"
+- **testID not found**: Suggest text-based selection as fallback, or ask user to add testID to component
+- **Video recording failed**: Fall back to `maestro test` (screenshots only, no video) and explain limitation
+- **Maestro not installed**: Provide install command: `curl -Ls "https://get.maestro.mobile.dev" | bash`
+
+## Related Skills
+
+- [maestro-mobile-testing](https://github.com/JuanMarchetto/maestro-mobile-testing) — deep patterns for writing Maestro tests
+- [webreel](https://github.com/JuanMarchetto/webreel-skill) — scripted web demos with cursor animation
+
 ## Context
 
-This skill lives at `~/.agents/skills/demo-pipeline/`. It has companion files:
+This skill has companion files:
 - `reference.md` — complete action reference with tool mappings
 - `templates/maestro-flow.yaml` — Maestro flow template
 - `templates/webreel-config.json` — webreel config template
