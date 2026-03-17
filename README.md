@@ -5,8 +5,8 @@ Record automated app demos from natural language descriptions. Converts plain En
 ## Install
 
 ```
-/plugin marketplace add JuanMarchetto/agent-skills-marketplace
-/plugin install demo-pipeline@agent-skills-marketplace
+/plugin marketplace add JuanMarchetto/agent-skills
+/plugin install demo-pipeline@agent-skills
 ```
 
 Or manually:
