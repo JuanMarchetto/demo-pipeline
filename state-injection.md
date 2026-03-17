@@ -84,7 +84,7 @@ if (__DEV__) {
 Skill triggers via:
 ```bash
 adb shell am start -a android.intent.action.VIEW \
-  -d "bondum://demo?state=%7B%22balance%22%3A5000%7D"
+  -d "myapp://demo?state=%7B%22balance%22%3A5000%7D"
 ```
 
 ### Native mock pattern

@@ -29,10 +29,10 @@ Tap or click an element.
 Type text into an input field.
 
 ```yaml
-- type: { target: "search-input", text: "PaniCafe" }
+- type: { target: "search-input", text: "Espresso" }
 ```
-- Maestro: `- tapOn: { id: "search-input" }` then `- inputText: "PaniCafe"`
-- webreel: `{ "action": "type", "selector": "#search-input", "text": "PaniCafe" }`
+- Maestro: `- tapOn: { id: "search-input" }` then `- inputText: "Espresso"`
+- webreel: `{ "action": "type", "selector": "#search-input", "text": "Espresso" }`
 
 ---
 

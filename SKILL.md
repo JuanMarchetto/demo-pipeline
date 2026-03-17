@@ -16,7 +16,7 @@ Record polished app demos from a natural language script. Works with Expo mobile
 
 ## Quick Start
 
-User says: "record demo — show the login, navigate to rewards, highlight PaniCafe coupons, end on profile"
+User says: "record demo — show the login, navigate to rewards, highlight featured items, end on profile"
 
 You:
 1. Discover all screens, states, and flows via static analysis
@@ -128,7 +128,7 @@ If no server → tell user: "No dev server detected. Start your dev server and t
 ### Step 3: Announce detection
 
 Tell the user what you detected, e.g.:
-> "Detected: **Expo mobile** project (`xyz.bondum.mobile`) with Android emulator running. I'll use **Maestro** for recording."
+> "Detected: **Expo mobile** project (`com.example.myapp`) with Android emulator running. I'll use **Maestro** for recording."
 
 Then proceed to Phase 2.
 
@@ -235,7 +235,7 @@ output:
 | Action | Example |
 |--------|---------|
 | `tap` | `tap: "tab-rewards"` or `tap: "Button Text"` |
-| `type` | `type: { target: "search-input", text: "PaniCafe" }` |
+| `type` | `type: { target: "search-input", text: "Espresso" }` |
 | `scroll` | `scroll: down` |
 | `swipe` | `swipe: left` |
 | `wait` | `wait: 2s` |
